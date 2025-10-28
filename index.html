@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hud">
+  <div id="score">Pontuação: 0</div>
+  <div id="life">Vida: 100</div>
+</div>
+<div id="controls">
+  <div class="btn" id="up">↑</div>
+  <div class="btn" id="left">←</div>
+  <div class="btn" id="down">↓</div>
+  <div class="btn" id="right">→</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/examples/js/controls/OrbitControls.js"></script>
+<script src="player.js"></script>
+<script src="enemy.js"></script>
+<script src="collectibles.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
